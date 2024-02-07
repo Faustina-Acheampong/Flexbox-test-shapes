@@ -52,7 +52,7 @@ body {
 }
 .two {
     display: flex;
-    align-items: stretch;  
+    align-content: stretch;  
     justify-content: center;
       
 }
@@ -63,6 +63,7 @@ body {
 .three {
     display: flex;
     justify-content: flex-end;
+
 }
 .four {
     display: flex; 
@@ -74,15 +75,17 @@ body {
 }
 .third {
     margin-top: 15px;
+    
 }
 .fourth {
     margin-top: 15px;
     align-self: flex-end;
+
 }
 .five {
     display: flex;
-    justify-content: center;
-    align-items: baseline;    
+    justify-content: center; 
+    align-content: baseline;   
 }
 .six {
     display: flex;
